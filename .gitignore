@@ -1,0 +1,147 @@
+tignore for Grails 1.2 and 1.3
+
+# .gitignore for maven
+target/
+*.releaseBackup
+
+# web application files
+#/web-app/WEB-INF
+
+# IDE support files
+/.classpath
+/.launch
+/.project
+/.settings
+/*.launch
+/*.tmproj
+/ivy*
+/eclipse
+
+# logs
+/stacktrace.log
+/test/reports
+/logs
+*.log
+*.log.*
+
+# project release file
+/*.war
+
+# plugin release file
+/*.zip
+/*.zip.sha1
+
+# older plugin install locations
+/plugins
+/web-app/plugins
+/web-app/WEB-INF/classes
+
+# "temporary" build files
+target/
+out/
+
+# other
+*.iws
+
+#.gitignore for java
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+## .gitignore for eclipse
+
+*.pydevproject
+.project
+.metadata
+tmp/**
+tmp/**/*
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.classpath
+.loadpath
+
+# External tool builders
+.externalToolBuilders/
+
+# Locally stored "Eclipse launch configurations"
+*.launch
+
+# CDT-specific
+.cproject
+
+# PDT-specific
+.buildpath
+
+## .gitignore for intellij
+
+*.iml
+*.ipr
+*.iws
+.idea/
+
+## .gitignore for windows
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+## .gitignore for mac os x
+
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+## hack for graddle wrapper
+!wrapper/*.jar
+!**/wrapper/*.jar
+**/*.pyc
+
+**/screenCapture/
+**/*.log
+**/weibo.sql
+/spider/fetch_texts/
+tmp
+.ipynb_checkpoints/
+
+.DS_Store
+node_modules/
+/dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+/test/unit/coverage/
+/test/e2e/reports/
+selenium-debug.log
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+migrations/
+
+# Pipfile.lock
+# package-lock.json
